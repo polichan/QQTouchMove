@@ -32,7 +32,7 @@ local Red_cancle_y =300;
 --初始化需求刷新次数,默认为800次。
 local Need = 800;
 init("com.tencent.mqq",0);--设置QQ为脚本目标进程
-if getColor(Start_x, Start_x) == 0xEEEFF3 then --获取QQ搜索栏颜色
+if getColor(Start_x, Start_y) == 0xEEEFF3 then --获取QQ搜索栏颜色
 	touchDown(1,  MoveSearch_x, MoveSearch_y); --1号手指 
 	touchMove(1, MoveSearch_x,  MoveSearch_y+AddPixels); --1号手指滑动到1142处，使界面完全下移到极限位置
 	for times=1,Need,1 do 
