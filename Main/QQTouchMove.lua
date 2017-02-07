@@ -12,7 +12,7 @@
 
 --初始化搜索栏坐标
 local Start_x = 200;
-local Start_x = 176;
+local Start_y = 176;
 --初始化搜索栏调整后的坐标
 local Adjust_x = 200;
 local Adjust_y = 574;
